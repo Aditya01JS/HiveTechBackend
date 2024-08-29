@@ -107,7 +107,7 @@ DB_URL = config('DB_URL', default='')
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default=DB_URL,
+        default='postgresql://hivedb_user:RMyXFWzqIC6jGKZxhw2CD3Iigf3iNuu4@dpg-cr32i5bv2p9s739glvmg-a.oregon-postgres.render.com/hivedb_name',
         conn_max_age=600
     )
 }
